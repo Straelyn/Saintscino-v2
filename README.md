@@ -1,10 +1,9 @@
-# The Saintscino · Debris — Smart Storage Unit slot machine for EVE Frontier
+# The Saintscino — Smart Storage Unit slot machine for EVE Frontier
 
-The Debris sister site of [The Saintscino](https://github.com/Straelyn/Saintscino): identical, except the only bet is **Debris**.
+The one Saintscino slots dApp. It replaces the old split into a main site and a Debris sister site: a single page now runs any casino, whatever it accepts. Each casino's owner chooses its bets in the owner panel: **Debris**, the three **beakers** (Thermal Composites, Carbon Weave, Reinforced Alloys), or both, plus optional **EVE spins**.
 
 A slot machine that runs on a **Smart Storage Unit** in EVE Frontier (Stillness).
-Bet **Debris**, win **SOF-40** and **EU-40 Fuel**. Every spin is a transaction on the
-Sui blockchain, so the odds are enforced by the contract, not by the website.
+Every spin is a transaction on the Sui blockchain, so the odds are enforced by the contract, not by the website.
 
 **Play / dApp:** https://straelyn.github.io/Saintscino-v2/
 
@@ -13,14 +12,16 @@ Sui blockchain, so the odds are enforced by the contract, not by the website.
 ## How to play
 
 1. Fly to a storage unit running the casino and open its dApp window.
-2. **Connect EVE Wallet** (top right).
-3. Drag your stake into **your own slot** in the unit (the STORAGE UNIT panel).
-   Accepted: **Debris**.
-   The page shows what's in your slot.
-4. Pick the material and a bet size (**1**, **5** or **10**), then press **Pull** and approve in your wallet.
+2. **Connect EVE Wallet** (top right). Your character name shows once connected.
+3. Item spins: drag your stake into **your own slot** in the unit (the STORAGE UNIT panel). The page lists what the casino accepts (Debris and/or beakers) and shows what's in your slot.
+   EVE spins (when the owner turns them on): just stake EVE from your wallet.
+4. Pick the item and an amount, then press **Pull** and approve in your wallet.
 5. Pushes and winnings land in your slot. Drag them out whenever you like.
 
+The **Casino stats** panel under the machine shows spins, wins, items staked, prizes won, the most active players and recent spins, all read from the chain.
+
 Each spin costs a tiny amount of SUI for gas (about 0.001 SUI).
+
 
 ## Payouts (standard table)
 
